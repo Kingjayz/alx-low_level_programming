@@ -1,9 +1,10 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+
 /**
- * main -entry point
- * What this does: print if a number is positive or negative
+ * main - entry point
+ * print if number is positive, negative or zero
  * Return: Always 0
  */
 int main(void)
@@ -20,10 +21,8 @@ int main(void)
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	}
 	else
 	{
 		printf("%d is negative\n", n);
-
 	return (0);
 }
