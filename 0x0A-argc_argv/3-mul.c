@@ -14,7 +14,7 @@ int a, b;
 if (argc == 3)
 {
 a = atoi(argv[1]);
-b = atoi(agrv[2];
+b = atoi(agrv[2]);
 printf("%d\n", a *b);
 return (0);
 }
