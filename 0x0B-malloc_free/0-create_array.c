@@ -1,4 +1,4 @@
-#incldue "main.h
+#include "main.h"
 
 /**
 *creat_array - array for prints a string
@@ -16,7 +16,7 @@ char *creat_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-/*Define values with mallooc*/
+/*Define values with malloc*/
 	buffer = (char *) malloc(size * sizeof(c));
 
 	if (buffer == 0)
